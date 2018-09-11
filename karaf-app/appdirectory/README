@@ -1,0 +1,7 @@
+this is a sample app for this set of scripts. all feature files that are
+placed in this directory will be pushed when you run:
+
+./push-karaf-app.sh <appname> appdirectory
+
+simply make a new directory and put feature files in it, then run the
+push-karaf-app script giving an app name and the directory as params.
