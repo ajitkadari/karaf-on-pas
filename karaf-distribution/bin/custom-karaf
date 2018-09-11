@@ -1,0 +1,3 @@
+cp features/* etc/
+export JAVA_HOME=/home/vcap/app/.java-buildpack/open_jdk_jre 
+bin/karaf
