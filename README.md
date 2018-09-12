@@ -5,17 +5,17 @@
 
     To build the applications in this workshop, you need a few things:
 
-    1. Git
+    1. Git - https://help.github.com/articles/set-up-git/#setting-up-git
 
-    2. Java JDK 8
+    2. Java JDK 8 - http://www.oracle.com/technetwork/java/javase/downloads/index.html
 
-    3. Maven
+    3. Maven - https://maven.apache.org/install.html
 
 
 
     We’ll be pushing applications and creating services in Pivotal Cloud Foundry (PCF). This workshop will use Pivotal Web Services, an instance of PCF managed by Pivotal.
 
-    1. Login or signup for a free Pivotal Web Services account
+    1. Login or signup for a free Pivotal Web Services account (https://run.pivotal.io/)
 
     2. Click the Tools link and
 
