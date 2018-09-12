@@ -22,7 +22,7 @@
         b. Login using CF CLI (cf login -a api.run.pivotal.io)
 
 
-    Approach 1 - Deploy Karaf app to Pivotal Application Service (PAS)
+    # Approach 1 - Deploy Karaf app to Pivotal Application Service (PAS)
 
     Steps:
 
