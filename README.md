@@ -1,8 +1,6 @@
 # karaf-on-pas
 
 
-    Approach 1 - Deploy Karaf app to Pivotal Application Service (PAS)
-
     To build the applications in this workshop, you need a few things:
 
     1. Git - https://help.github.com/articles/set-up-git/#setting-up-git
@@ -13,7 +11,7 @@
 
 
 
-    We’ll be pushing applications and creating services in Pivotal Cloud Foundry (PCF). This workshop will use Pivotal Web Services, an instance of PCF managed by Pivotal.
+    We’ll be pushing applications and creating services in Pivotal Cloud Foundry (PCF). This workshop will use Pivotal Web         Services, an instance of PCF managed by Pivotal.
 
     1. Login or signup for a free Pivotal Web Services account (https://run.pivotal.io/)
 
@@ -24,6 +22,7 @@
         b. Login using CF CLI (cf login -a api.run.pivotal.io)
 
 
+    Approach 1 - Deploy Karaf app to Pivotal Application Service (PAS)
 
     Steps:
 
