@@ -2,7 +2,10 @@
 
 [source]
 ----
-To build the applications in this workshop, you need a few things:
+
+
+
+To build the application, you need a few things:
 
 1. Git - https://help.github.com/articles/set-up-git/#setting-up-git
 
@@ -10,7 +13,11 @@ To build the applications in this workshop, you need a few things:
 
 3. Maven - https://maven.apache.org/install.html
 
-We’ll be pushing applications and creating services in Pivotal Cloud Foundry (PCF). This workshop will use Pivotal Web         Services, an instance of PCF managed by Pivotal.
+
+
+
+We’ll be pushing sample Karaf application to Pivotal Cloud Foundry (PCF).
+We will use Pivotal Web Services, an instance of PCF managed by Pivotal.
 
 1. Login or signup for a free Pivotal Web Services account (https://run.pivotal.io/)
 
@@ -20,7 +27,9 @@ We’ll be pushing applications and creating services in Pivotal Cloud Foundry (
 
     b. Login using CF CLI (cf login -a api.run.pivotal.io)
 
-# Approach 1 - Deploy Karaf app to Pivotal Application Service (PAS)
+
+
+Deploy Karaf app to Pivotal Application Service (PAS)
 
 Steps:
 
