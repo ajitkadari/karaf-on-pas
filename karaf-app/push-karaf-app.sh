@@ -12,7 +12,10 @@ tar -zxf apache-karaf-4.2.1-pcfdist.tar.gz
 # copy the configs in the directory passed by user into the features subdirectory
 cp ../$2/* apache-karaf-4.2.1/features
 
-# go into aetos push directory, push, return
+# go into karaf push directory, push, return
 cd apache-karaf-4.2.1
 cf push $1 -c "bin/custom-karaf" -b java_buildpack
+
+# clean up
 cd ../..
+rm -rf push

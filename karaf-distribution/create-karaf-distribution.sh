@@ -23,8 +23,8 @@ chmod 755 distribution/apache-karaf-4.2.1/bin/custom-karaf
 cp etc/org.ops4j.pax.web.cfg distribution/apache-karaf-4.2.1/etc
 
 # copy custom logging file - disabled file logging and enabled stdout/console logging
-# rm -f distribution/apache-karaf-4.2.1/etc/org.ops4j.pax.logging.cfg
-# cp etc/org.ops4j.pax.logging.cfg distribution/apache-karaf-4.2.1/etc/
+rm -f distribution/apache-karaf-4.2.1/etc/org.ops4j.pax.logging.cfg
+cp etc/org.ops4j.pax.logging.cfg distribution/apache-karaf-4.2.1/etc/
 
 # tar up the custom distribution 
 cd distribution
@@ -40,4 +40,8 @@ mv distribution/apache-karaf-4.2.1-pcfdist.tar.gz push/
 # push to Pivotal Application Service (PAS) 
 cd push
 cf push
-cd .. 
+
+# clean up
+rm -f apache-karaf-4.2.1-pcfdist.tar.gz
+cd ..
+rm -rf distribution 
